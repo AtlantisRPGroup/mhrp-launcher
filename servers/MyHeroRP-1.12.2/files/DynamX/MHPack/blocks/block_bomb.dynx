@@ -1,0 +1,9 @@
+Name: C4 (Rouge)
+Description: Bloc
+Model: obj/bomb/bomb.obj
+CreativeTab: MHPack
+
+RenderDistanceSquared: 10000
+Scale: 1.5 1.5 1.5
+Translate: 0 -1 0.45
+ItemScale: 0.1

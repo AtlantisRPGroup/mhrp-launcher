@@ -1,0 +1,5 @@
+Name: Transformer
+Description: Transformer
+Model: obj/transformer/transformer.obj
+Scale: 1 1 1
+Translate: 0 -1.5 0

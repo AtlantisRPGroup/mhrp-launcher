@@ -1,0 +1,187 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiIngameMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = fancymenu_data/assets/pause/background.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  orientation = top-left
+  x = 223
+  action = movebutton
+  y = 230
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  width = 194
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/assets/pause/quitsolohover.png
+  backgroundnormal = fancymenu_data/assets/pause/quitsolo.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  action = vanilla_button_visibility_requirements
+  [loading_requirement:fancymenu_visibility_requirement_is_server_ip][requirement_mode:if_not][req_id:3c0e20a6-e36e-48e7-aa44-94beedc897b11744643667487] = 54.37.84.191:4587
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  orientation = top-left
+  x = 223
+  action = movebutton
+  y = 154
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  width = 194
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/assets/pause/resumesolohover.png
+  backgroundnormal = fancymenu_data/assets/pause/resumesolo.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  [loading_requirement:fancymenu_visibility_requirement_is_server_ip][requirement_mode:if_not][req_id:7d545639-5b21-4289-8bd6-39ff7cc493b01744644340503] = 54.37.84.191:4587
+  action = vanilla_button_visibility_requirements
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  orientation = top-left
+  x = 223
+  action = movebutton
+  y = 192
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  width = 194
+  action = resizebutton
+  height = 30
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/assets/pause/settingshover.png
+  backgroundnormal = fancymenu_data/assets/pause/settings.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_pausescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  action = hidebutton
+}
+
+customization {
+  path = fancymenu_data/assets/logo.png
+  orientation = top-left
+  x = 275
+  width = 90
+  actionid = f4567d88-ca3c-477e-8943-8b55b82e1b9f1744641342410
+  action = addtexture
+  y = 27
+  height = 90
+}
+
+customization {
+  [loading_requirement:fancymenu_visibility_requirement_is_server_ip][requirement_mode:if][req_id:84e88606-27b8-42db-af5d-c7296526d55c1744643948458] = 54.37.84.191:4587
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.GuiIngameMenu:button_compatibility_id:mc_pausescreen_disconnect_button%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/assets/pause/quithover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 223
+  width = 194
+  action = addbutton
+  actionid = 3b0de9c5-bb25-4845-ae55-033fba0107601744643935659
+  y = 230
+  backgroundnormal = fancymenu_data/assets/pause/quit.png
+  height = 30
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = mimicbutton;net.minecraft.client.gui.GuiIngameMenu:button_compatibility_id:mc_pausescreen_return_to_game_button%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/assets/pause/resumehover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 223
+  width = 194
+  action = addbutton
+  actionid = d4772550-b6b9-48fd-bafa-3e3b5daa6b7f1744644374153
+  y = 154
+  [loading_requirement:fancymenu_visibility_requirement_is_server_ip][requirement_mode:if][req_id:8942117d-d52a-47b2-81b0-3acaf71f78491744644419903] = 54.37.84.191:4587
+  backgroundnormal = fancymenu_data/assets/pause/resume.png
+  height = 30
+}
+

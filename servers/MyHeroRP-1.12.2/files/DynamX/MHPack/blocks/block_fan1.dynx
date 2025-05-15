@@ -1,0 +1,9 @@
+Name: Ventilateur 1
+Description: Bloc
+Model: obj/fan1/fan.obj
+CreativeTab: MHPack
+
+RenderDistanceSquared: 10000
+Scale: 5 5 5
+Translate: 0 -1.5 -2
+ItemScale: 0.1

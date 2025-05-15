@@ -1,0 +1,5 @@
+Name: Generator
+Description: Generator
+Model: obj/generator/generator.obj
+Scale: 1 1 1
+Translate: 0 -1.5 0

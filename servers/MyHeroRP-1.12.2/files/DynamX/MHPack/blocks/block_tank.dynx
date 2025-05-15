@@ -1,0 +1,9 @@
+Name: Réservoir
+Description: Bloc
+Model: obj/tank/tank.obj
+CreativeTab: MHPack
+
+RenderDistanceSquared: 10000
+Scale: 1 1 1
+Translate: 0 0 0
+ItemScale: 0.1

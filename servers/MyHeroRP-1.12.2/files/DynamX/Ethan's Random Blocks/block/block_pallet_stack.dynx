@@ -1,0 +1,5 @@
+Name: Pallet stack
+Description: Pallet stack
+Model: obj/pallet_stack/pallet_stack.obj
+Scale: 1 1 1
+Translate: 0 -1.5 0

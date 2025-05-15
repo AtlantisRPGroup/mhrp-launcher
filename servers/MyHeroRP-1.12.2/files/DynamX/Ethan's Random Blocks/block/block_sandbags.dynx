@@ -1,0 +1,5 @@
+Name: Sandbugs
+Description: Sandbugs
+Model: obj/sandbugs/sandbugs.obj
+Scale: 1 1 1
+Translate: 0 -1.5 0

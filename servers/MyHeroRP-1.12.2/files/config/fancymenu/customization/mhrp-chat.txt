@@ -1,0 +1,140 @@
+type = menu
+
+customization-meta {
+  identifier = net.optifine.gui.GuiChatOF
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = sendmessage;/emote 3%btnaction_splitter_fm%
+  description = &eEmote #3
+  label = §6#3
+  loopbackgroundanimations = true
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:6c159e0b-445a-41ff-ad8f-68d7c01677471744653224419] = Emotes:true
+  x = 520
+  width = 53
+  action = addbutton
+  actionid = 2b114d5f-3c83-4d7c-9daa-a60e3771a2b01744645813206
+  y = 275
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = sendmessage;/emote 4%btnaction_splitter_fm%
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:e105c127-6028-4dee-a001-11ce171ae2201744652998877] = Emotes:true
+  description = &eEmote #4
+  label = §6#4
+  loopbackgroundanimations = true
+  x = 577
+  width = 53
+  action = addbutton
+  actionid = 450e0b01-4511-4390-bb58-7303fc2f80671744646552466
+  y = 275
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:08ce4cca-97d1-4ad1-8f1a-324c8f8c1d4d1744653668704] = Emotes:true
+  buttonaction = set_variable;Emotes:true%btnaction_splitter_fm%
+  description = &6Info &7▪ &eAccéder aux émotes
+  label = §eEmotes §c(OFF)
+  loopbackgroundanimations = true
+  x = 520
+  width = 110
+  action = addbutton
+  actionid = d09045dd-51fc-4be4-ae7e-50ba0d6a7daa1744652960621
+  y = 298
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = set_variable;Emotes:false%btnaction_splitter_fm%
+  description = &6Définir &7▪ &e/emote <chiffre> <action>
+  label = §eEmotes §a(ON)
+  loopbackgroundanimations = true
+  x = 520
+  width = 110
+  action = addbutton
+  actionid = c6b80e20-d8a2-40ba-a718-823cbd1efab31744653553621
+  y = 298
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:7ca8ee6e-b57f-4ecc-88ac-582bcfe04f861744653558922] = Emotes:true
+  height = 20
+}
+
+customization {
+  tickeraction_0_set_variable = Emotes:false
+  orientation = top-right
+  tick_delay = 0
+  is_async = false
+  x = -70
+  width = 70
+  action = custom_layout_element:fancymenu_customization_item_ticker
+  actionid = 5d81b9e3-f733-400b-930d-1c6c56f52e881744653745794
+  y = 0
+  tick_mode = on_menu_load
+  height = 70
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = sendmessage;/emote 2%btnaction_splitter_fm%
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:e105c127-6028-4dee-a001-11ce171ae2201744652998877] = Emotes:true
+  description = &eEmote #2
+  label = §6#2
+  loopbackgroundanimations = true
+  x = 577
+  width = 53
+  action = addbutton
+  actionid = ae426f5b-948e-49bd-ab4d-f7fd6fc668751744654843258
+  y = 251
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = sendmessage;/emote 1%btnaction_splitter_fm%
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:e105c127-6028-4dee-a001-11ce171ae2201744652998877] = Emotes:true
+  description = &eEmote #1
+  label = §6#1
+  loopbackgroundanimations = true
+  x = 520
+  width = 53
+  action = addbutton
+  actionid = 9352920b-4d4b-4bd9-82e3-670cb22198d11744654895458
+  y = 251
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = sendmessage;/sit%btnaction_splitter_fm%
+  x = 476
+  width = 40
+  action = addbutton
+  actionid = 2a84ad0c-061d-4854-8d1f-4cc220a026bd1744655546703
+  y = 298
+  description = &6Action &7▪ &eS'asseoir par terre.
+  label = §e/sit
+  height = 20
+}
+

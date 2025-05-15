@@ -1,0 +1,425 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = fancymenu_data/assets/background.png
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-left
+  x = 7
+  action = movebutton
+  y = 182
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 85
+  action = resizebutton
+  height = 45
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/assets/settings_hover.png
+  backgroundnormal = fancymenu_data/assets/settings.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=9755%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-left
+  x = 7
+  action = movebutton
+  y = 130
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 45
+  action = resizebutton
+  height = 45
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = fancymenu_data/assets/solo.png
+  backgroundnormal = fancymenu_data/assets/solo.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = sethoverlabel
+  label = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = f295fea6-3453-4874-9742-1b1f6a9ef7301744045909535
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 156
+  action = deep_customization_element:title_screen_branding
+  actionid = 26782761-7d4f-4a88-821d-ae8078079adf1744045909545
+  y = 295
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = baf38b8a-1933-4319-99f2-704ffa8492481744045909545
+  y = 317
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 45f45137-e50f-43b9-9501-3c806525e6b61744045909546
+  y = 184
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 9d7f6235-0727-43bd-bed6-7b0be799cd6d1744045909546
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = aaed2a97-aa98-4fe6-9bec-d813e08aac7f1744045909546
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = &9Archipel d'Hawkins
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 300
+  width = 189
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = a7bd154b-4c2f-450d-864b-8590e63eaaa01744136130418
+  y = 113
+  alignment = left
+  height = 11
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 0.7
+  source = &bL'archipel d'Hawkins est un ensemble d'îles situé au nord-ouest%n%&bdes États-Unis. Il est né des décombres d'un astéroïde qui s'est%n%&bécrasé en 2035 sur l'État de Washington. Cet archipel s'est formé%n%&bà la fois à partir des fragments de l'astéroïde et des ruines%n%&blaissées par la destruction de cette région.%n%%n%&bÀ l'époque actuelle, l'archipel est devenu un endroit prospère, où%n%&bla société vit et évolue constamment, affichant une croissance%n%&bcontinue.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 307
+  width = 266
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 2a55aeb9-3f47-47cb-97b4-c37a991359be1744137927350
+  y = 130
+  alignment = left
+  base_color = #d2b4de
+  height = 66
+}
+
+customization {
+  orientation = top-left
+  slim = false
+  scale = 75
+  headrotationy = 0.0
+  headrotationx = 180.0
+  autorotation = false
+  showname = false
+  crouching = false
+  x = 227
+  actionid = 9338ce07-1ce0-445d-9e58-33f6b144fab41744136241458
+  action = addentity
+  y = 272
+  playername = %playername%
+  bodyrotationx = 150.0
+  bodyrotationy = 0.0
+  parrot = false
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 0.8
+  source = &9Par ailleurs, merci à notre équipe pour le travail exceptionnel !
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 300
+  width = 261
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 1b720282-65cf-43b9-8e88-4f07429aeef81744138562377
+  y = 273
+  alignment = left
+  base_color = #5b2c6f
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = &9Remerciments
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 300
+  width = 189
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 52940acb-be41-4ce8-a57a-8e4f7529f3071744138043400
+  y = 215
+  alignment = left
+  base_color = #8e44ad
+  height = 12
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 0.7
+  source = &bUn immense coeur à celles et ceux qui nous ont soutenus :%n%%n% &8▪ &3Edolak, Totoro_Coin, Nokushi, Foxwolfi, Erzamak.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 307
+  width = 256
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 1caec360-f9a9-45e5-93f1-6fd0edcbe58b1744138071634
+  y = 232
+  alignment = left
+  base_color = #d2b4de
+  height = 25
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/FsXQtwgkmT%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/assets/discord_hover.png
+  description = &8▪ &9Rejoindre le Discord
+  label = 
+  loopbackgroundanimations = true
+  x = 20
+  width = 110
+  action = addbutton
+  actionid = b5549631-f9cb-462f-b2a4-720f53c5d8031744140663679
+  y = 245
+  backgroundnormal = fancymenu_data/assets/discord.png
+  height = 33
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = joinserver;54.37.84.191:4587%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/assets/roleplay_hover.png
+  description = &8▪ &3Bon jeu ! &c❤
+  label = 
+  loopbackgroundanimations = true
+  x = 58
+  width = 85
+  action = addbutton
+  actionid = cba30368-6b9e-42e7-853d-f1bb025af1421744141419914
+  y = 130
+  backgroundnormal = fancymenu_data/assets/roleplay.png
+  height = 45
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = quitgame%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/assets/quit_hover.png
+  description = &8▪ &bHâte de te revoir ! &e☀
+  label = 
+  loopbackgroundanimations = true
+  x = 98
+  width = 45
+  action = addbutton
+  actionid = 4e47d7ee-a0f5-403c-ba18-b5e1c82ff3541744141852620
+  y = 182
+  backgroundnormal = fancymenu_data/assets/quit.png
+  height = 45
+}
+
+customization {
+  path = fancymenu_data/assets/logo.png
+  orientation = top-left
+  x = 32
+  width = 85
+  actionid = 5b458bd7-d057-4d89-982b-95b5159731911744144391636
+  action = addtexture
+  y = 25
+  height = 85
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://myherorp.gitbook.io/mhrp-patchnote/%btnaction_splitter_fm%
+  backgroundhovered = fancymenu_data/assets/notif.png
+  description = &bPatch-Note
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 
+  x = 561
+  width = 20
+  action = addbutton
+  actionid = 7dbbf6c0-3f7d-4e40-aefa-8323106ec0ba1744145322093
+  y = 94
+  backgroundnormal = fancymenu_data/assets/notif.png
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = &3En Ligne : &b{"placeholder":"serverplayercount","values":{"ip":"54.37.84.191:4587"}} &3Status : &b{"placeholder":"serverstatus","values":{"ip":"54.37.84.191:4587"}}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 158
+  width = 328
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 77eb744d-622a-4b88-9e29-d0ed4dfe85961744146680104
+  y = 93
+  alignment = left
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = &3Pseudo : &b{"placeholder":"playername"}
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 162
+  width = 131
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = a698ae58-7c00-4e56-9f06-ebd6d0159cf91744147402849
+  y = 289
+  alignment = centered
+  height = 40
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = hidebutton
+}
+

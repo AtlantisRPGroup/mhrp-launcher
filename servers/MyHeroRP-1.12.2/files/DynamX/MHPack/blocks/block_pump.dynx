@@ -1,0 +1,9 @@
+Name: Pompe
+Description: Bloc
+Model: obj/pump/pump.obj
+CreativeTab: MHPack
+
+RenderDistanceSquared: 10000
+Scale: 1 1 1
+Translate: 0 -1.5 0
+ItemScale: 0.1

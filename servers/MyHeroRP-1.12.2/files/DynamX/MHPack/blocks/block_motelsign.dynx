@@ -1,0 +1,9 @@
+Name: Panneau Motel
+Description: Bloc
+Model: obj/motelsign/motelsign.obj
+CreativeTab: MHPack
+
+RenderDistanceSquared: 10000
+Scale: 0.5 0.5 0.5
+Translate: 0 -1.5 0
+ItemScale: 0.05

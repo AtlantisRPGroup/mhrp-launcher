@@ -1,0 +1,9 @@
+Name: Chaine en métal
+Description: Bloc
+Model: obj/fencechain/fencechain.obj
+CreativeTab: MHPack
+
+RenderDistanceSquared: 10000
+Scale: 1.5 1.5 1.5
+Translate: 0 -1.5 0
+ItemScale: 0.1

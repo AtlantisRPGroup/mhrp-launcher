@@ -1,0 +1,5 @@
+Name: Water tank
+Description: Water tank
+Model: obj/water_tank/water_tank.obj
+Scale: 1 1 1
+Translate: 0 -1.5 0

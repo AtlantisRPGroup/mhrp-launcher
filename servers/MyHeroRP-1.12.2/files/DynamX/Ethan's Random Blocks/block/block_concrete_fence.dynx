@@ -1,0 +1,6 @@
+Name: Concrete fence
+Description: Concrete fence
+Model: obj/concrete_fence/concrete_fence.obj
+Scale: 1 1 1
+Translate: 0 -1.5 0
+ItemScale: 0.1

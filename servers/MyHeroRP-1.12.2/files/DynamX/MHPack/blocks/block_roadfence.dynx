@@ -1,0 +1,9 @@
+Name: Barrière en métal
+Description: Bloc
+Model: obj/roadfence/roadfence.obj
+CreativeTab: MHPack
+
+RenderDistanceSquared: 10000
+Scale: 1.75 1.75 1.75
+Translate: 0 -1.5 0
+ItemScale: 0.1
